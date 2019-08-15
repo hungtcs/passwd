@@ -1,0 +1,19 @@
+{
+  "name": "@hungtcs-box/passwd",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "author": "鸿则<hungtcs@163.com>",
+  "version": "0.0.1",
+  "description": "parse linux passwd file",
+  "scripts": {
+    "test": "ts-node tests/test.ts",
+    "build": "tsc",
+    "postbuild": "npm run test"
+  },
+  "keywords": [
+    "passwd"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.7.2"
+  }
+}
