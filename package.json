@@ -3,8 +3,12 @@
   "main": "./dist/index.js",
   "license": "MIT",
   "author": "鸿则<hungtcs@163.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "parse linux passwd file",
+  "repository": {
+    "url": "https://github.com/hungtcs/passwd.git",
+    "type": "git"
+  },
   "scripts": {
     "test": "ts-node tests/test.ts",
     "build": "tsc",
